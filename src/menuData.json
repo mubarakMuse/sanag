@@ -3,64 +3,66 @@
 
 
 {
-    "menu": {
-      "Hot Drinks": [
-        { "name": "Chai", "price": 4.00, "description": "Spiced tea with milk" },
-        { "name": "Matcha", "price": 4.00, "description": "Japanese green tea powder" },
-        { "name": "Latte", "price": 4.00, "description": "Espresso with steamed milk" },
-        { "name": "Cappuccino", "price": 4.00, "description": "Espresso topped with foamed milk" },
-        { "name": "Shaax 12oz", "price": 3.50, "description": "Traditional Somali tea, 12oz" },
-        { "name": "Shaax 16oz", "price": 3.00, "description": "Traditional Somali tea, 16oz" },
-        { "name": "Caramel Macchiato", "price": 4.15, "description": "Espresso with vanilla and caramel", "isLimitedTime": true }
-      ],
-      "Cold Drinks": [
-        { "name": "Refreshers", "price": 4.50, "description": "Fruity and refreshing cold beverages" },
-        { "name": "Frappuccino", "price": 5.00, "description": "Blended iced coffee drink" },
-        { "name": "Iced Matcha", "price": 4.50, "description": "Chilled Japanese green tea" },
-        { "name": "Smoothies", "price": 4.50, "description": "Blended fruit and yogurt drink" },
-        { "name": "Mango Mocktail", "price": 5.00, "description": "Non-alcoholic mango-based drink", "isLimitedTime": true },
-        { "name": "Mixed Smoothies", "price": 3.50, "description": "Blend of various fruits" },
-        { "name": "Mixed Refreshers", "price": 5.75, "description": "Assortment of refreshing drinks" },
-        { "name": "Iced Latte", "price": 4.75, "description": "Chilled espresso with milk" }
-      ],
-      "Desserts": [
-        { "name": "Mango Crème Cake", "price": 4.50, "description": "Creamy mango-flavored cake" },
-        { "name": "BTS Cake", "price": 4.50, "description": "Special themed cake" },
-        { "name": "Biscoff Cake", "price": 4.50, "description": "Cake made with Biscoff cookies" },
-        { "name": "Macsharo", "price": 2.00, "description": "Traditional Somali sweet bread" },
-        { "name": "Bajiyo (2 pieces)", "price": 2.00, "description": "Fried black-eyed pea fritters" },
-        { "name": "Rooti Cheese", "price": 1.00, "description": "Flatbread with cheese" },
-        { "name": "Biscoff Croissant", "price": 1.00, "description": "Croissant with Biscoff spread" },
-        { "name": "Buur Macaan (2 for 1.00)", "price": 1.00, "description": "Sweet Somali biscuits" },
-        { "name": "Matcha Cake", "price": 1.00, "description": "Green tea flavored cake" },
-        { "name": "Cupcakes", "price": 2.50, "description": "Assorted flavored cupcakes" }
-      ],
-      "Main Dishes": [
-        { "name": "Chicken Sandwich", "price": 13.00, "description": "Grilled chicken with fresh toppings" },
-        { "name": "Spaso (Camel Breakfast)", "price": 18.00, "description": "Traditional Somali camel meat breakfast" },
-        { "name": "Haned (Yemeni Waslad)", "price": 27.00, "description": "Yemeni-style lamb dish" },
-        { "name": "Mendi (Yemeni Lamb)", "price": 27.00, "description": "Slow-cooked Yemeni lamb with rice" },
-        { "name": "Special Camel (Sizzling Camel)", "price": 45.00, "description": "Sizzling camel meat specialty" },
-        { "name": "Firdis (No Camel or Waslad)", "price": 7.00, "description": "Vegetarian option without meat" },
-        { "name": "Veggie Only", "price": 7.00, "description": "Assorted vegetable dish" },
-        { "name": "Fish Sandwich", "price": 13.00, "description": "Grilled fish fillet sandwich" },
-        { "name": "Chicken Legs", "price": 13.00, "description": "Seasoned and grilled chicken legs" },
-        { "name": "Chicken Suqaar", "price": 18.00, "description": "Somali-style diced chicken" },
-        { "name": "Philly Steak Sandwich", "price": 18.00, "description": "Classic Philly-style steak sandwich" }
-      ],
-      "Additional Items": [
-        { "name": "Big Soup TO GO", "price": 5.00, "description": "Large portion of soup for takeaway" },
-        { "name": "Beef Suqaar", "price": 12.00, "description": "Somali-style diced beef" },
-        { "name": "Bottled Smoothie", "price": 5.00, "description": "Pre-made smoothie in a bottle" },
-        { "name": "T-bone Steak", "price": 20.00, "description": "Grilled T-bone steak" },
-        { "name": "Chicken Mendi", "price": 13.00, "description": "Yemeni-style chicken with rice" },
-        { "name": "Chicken Cotoletta", "price": 18.00, "description": "Italian-style breaded chicken cutlet" },
-        { "name": "Camel", "price": 20.00, "description": "Prepared camel meat dish" },
-        { "name": "Goat Meat", "price": 20.00, "description": "Seasoned and cooked goat meat" },
-        { "name": "Philly Steak Sandwich", "price": 18.00, "description": "Classic Philly-style steak sandwich" },
-        { "name": "Salmon", "price": 20.00, "description": "Grilled or baked salmon fillet" },
-        { "name": "Tilapia", "price": 18.00, "description": "Prepared tilapia fish" },
-        { "name": "Sabiad", "price": 3.00, "description": "Traditional Somali flatbread" }
-      ]
-    }
+  "coffeeShop": {
+    "Hot Drinks": [
+      { "name": "Chai", "price": 4.00, "description": "Spiced tea with milk" },
+      { "name": "Matcha", "price": 4.00, "description": "Japanese green tea powder" },
+      { "name": "Latte", "price": 4.00, "description": "Espresso with steamed milk" },
+      { "name": "Cappuccino", "price": 4.00, "description": "Espresso topped with foamed milk" },
+      { "name": "Shaax 12oz", "price": 3.50, "description": "Traditional Somali tea, 12oz" },
+      { "name": "Shaax 16oz", "price": 3.00, "description": "Traditional Somali tea, 16oz" },
+      { "name": "Caramel Macchiato", "price": 4.15, "description": "Espresso with vanilla and caramel", "isLimitedTime": true }
+    ],
+    "Cold Drinks": [
+      { "name": "Refreshers", "price": 4.50, "description": "Fruity and refreshing cold beverages" },
+      { "name": "Frappuccino", "price": 5.00, "description": "Blended iced coffee drink" },
+      { "name": "Iced Matcha", "price": 4.50, "description": "Chilled Japanese green tea" },
+      { "name": "Smoothies", "price": 4.50, "description": "Blended fruit and yogurt drink" },
+      { "name": "Mango Mocktail", "price": 5.00, "description": "Non-alcoholic mango-based drink", "isLimitedTime": true },
+      { "name": "Mixed Smoothies", "price": 3.50, "description": "Blend of various fruits" },
+      { "name": "Mixed Refreshers", "price": 5.75, "description": "Assortment of refreshing drinks" },
+      { "name": "Iced Latte", "price": 4.75, "description": "Chilled espresso with milk" }
+    ],
+    "Desserts": [
+      { "name": "Mango Crème Cake", "price": 4.50, "description": "Creamy mango-flavored cake" },
+      { "name": "BTS Cake", "price": 4.50, "description": "Special themed cake" },
+      { "name": "Biscoff Cake", "price": 4.50, "description": "Cake made with Biscoff cookies" },
+      { "name": "Macsharo", "price": 2.00, "description": "Traditional Somali sweet bread" },
+      { "name": "Bajiyo (2 pieces)", "price": 2.00, "description": "Fried black-eyed pea fritters" },
+      { "name": "Rooti Cheese", "price": 1.00, "description": "Flatbread with cheese" },
+      { "name": "Biscoff Croissant", "price": 1.00, "description": "Croissant with Biscoff spread" },
+      { "name": "Buur Macaan (2 for 1.00)", "price": 1.00, "description": "Sweet Somali biscuits" },
+      { "name": "Matcha Cake", "price": 1.00, "description": "Green tea flavored cake" },
+      { "name": "Cupcakes", "price": 2.50, "description": "Assorted flavored cupcakes" }
+    ]
+  },
+  "restaurant": {
+    "Main Dishes": [
+      { "name": "Chicken Sandwich", "price": 13.00, "description": "Grilled chicken with fresh toppings" },
+      { "name": "Spaso (Camel Breakfast)", "price": 18.00, "description": "Traditional Somali camel meat breakfast" },
+      { "name": "Haned (Yemeni Waslad)", "price": 27.00, "description": "Yemeni-style lamb dish" },
+      { "name": "Mendi (Yemeni Lamb)", "price": 27.00, "description": "Slow-cooked Yemeni lamb with rice" },
+      { "name": "Special Camel (Sizzling Camel)", "price": 45.00, "description": "Sizzling camel meat specialty" },
+      { "name": "Firdis (No Camel or Waslad)", "price": 7.00, "description": "Vegetarian option without meat" },
+      { "name": "Veggie Only", "price": 7.00, "description": "Assorted vegetable dish" },
+      { "name": "Fish Sandwich", "price": 13.00, "description": "Grilled fish fillet sandwich" },
+      { "name": "Chicken Legs", "price": 13.00, "description": "Seasoned and grilled chicken legs" },
+      { "name": "Chicken Suqaar", "price": 18.00, "description": "Somali-style diced chicken" },
+      { "name": "Philly Steak Sandwich", "price": 18.00, "description": "Classic Philly-style steak sandwich" }
+    ],
+    "Additional Items": [
+      { "name": "Big Soup TO GO", "price": 5.00, "description": "Large portion of soup for takeaway" },
+      { "name": "Beef Suqaar", "price": 12.00, "description": "Somali-style diced beef" },
+      { "name": "Bottled Smoothie", "price": 5.00, "description": "Pre-made smoothie in a bottle" },
+      { "name": "T-bone Steak", "price": 20.00, "description": "Grilled T-bone steak" },
+      { "name": "Chicken Mendi", "price": 13.00, "description": "Yemeni-style chicken with rice" },
+      { "name": "Chicken Cotoletta", "price": 18.00, "description": "Italian-style breaded chicken cutlet" },
+      { "name": "Camel", "price": 20.00, "description": "Prepared camel meat dish" },
+      { "name": "Goat Meat", "price": 20.00, "description": "Seasoned and cooked goat meat" },
+      { "name": "Philly Steak Sandwich", "price": 18.00, "description": "Classic Philly-style steak sandwich" },
+      { "name": "Salmon", "price": 20.00, "description": "Grilled or baked salmon fillet" },
+      { "name": "Tilapia", "price": 18.00, "description": "Prepared tilapia fish" },
+      { "name": "Sabiad", "price": 3.00, "description": "Traditional Somali flatbread" }
+    ]
   }
+}

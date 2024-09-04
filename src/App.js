@@ -32,7 +32,7 @@ const Menu = () => {
     <div className="min-h-screen bg-base-200 text-base-content">
       <div className="container mx-auto px-4 py-6">
         <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-primary">Snaag Restaurant and Coffee</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-primary">Sanag Restaurant and Coffee</h1>
           <p className="text-xl sm:text-2xl text-secondary">Authentic Somali Cuisine & Specialty Coffee</p>
           <div className="mt-4 flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-4">
             <a href="tel:+19526071824" className="btn btn-primary btn-sm sm:btn-md">
@@ -91,7 +91,7 @@ const Menu = () => {
               (952) 607-1824
             </a>
           </p>
-          <p className="mt-4">© 2023 Snaag Restaurant and Coffee. All rights reserved.</p>
+          <p className="mt-4">© 2024 Sanag Restaurant and Coffee. All rights reserved.</p>
         </footer>
       </div>
     </div>
